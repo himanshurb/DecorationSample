@@ -10,10 +10,6 @@ import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.list_item.view.*
 import kotlinx.android.synthetic.main.list_section_item.view.*
 
-/**
- * Created by Backbase R&D B.V on 29/10/2019.
- * ViewHolder class for ProductDetailItem
- */
 class ItemViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
     private val sectionView: TextView? = itemView.textSection
     private val cellView: TextView = itemView.titleSubtitleItem
