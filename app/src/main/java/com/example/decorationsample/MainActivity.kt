@@ -21,8 +21,8 @@ class MainActivity : AppCompatActivity() {
         val items = getItems()
 
         val adapter = ListAdapter(items)
-        recyclerView.addItemDecoration(CustomDividerDecoration(this, items))
-        recyclerView.addItemDecoration(CustomSpacingDecoration(this, items))
+
+        recyclerView.addItemDecoration(iOSDecoration(this.baseContext, items))
         recyclerView.adapter = adapter
     }
 
